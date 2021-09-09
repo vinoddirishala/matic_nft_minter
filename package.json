@@ -1,0 +1,10 @@
+{
+  "name": "hardhat-project",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.3.1"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "hardhat": "^2.6.3"
+  }
+}
