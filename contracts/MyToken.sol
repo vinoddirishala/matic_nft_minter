@@ -14,6 +14,7 @@ contract MyToken is ERC721, ERC721Enumerable, Ownable {
     constructor() ERC721("MyToken", "MT") {}
 
     function safeMint(address to) public onlyOwner {
+        
         _safeMint(to, _tokenIdCounter.current());
         _tokenIdCounter.increment();
     }
