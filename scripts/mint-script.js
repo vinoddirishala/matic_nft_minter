@@ -8,7 +8,7 @@ const CONTRACT_ADDRESS = "0x53e99f791102b8D3dbbC51fb4cAFF3288bFCbCc1";
 async function main(_URI) {
 
 
-    const NFT = await ethers.getContractFactory("MT");
+    const NFT = await ethers.getContractFactory("MyToken");
 
     console.log("Minting is in progress...!!");
 

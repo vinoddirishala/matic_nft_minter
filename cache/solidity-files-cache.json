@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "E:\\Blockchain\\Matic NFT Minter\\MumbaiMaticMinter\\contracts\\MyToken.sol": {
-      "lastModificationDate": 1631258477966,
-      "contentHash": "557c9f960937ff265902668d9aa9dad1",
+      "lastModificationDate": 1631261436686,
+      "contentHash": "fd529b02851cb18c299067cf2aec2e8d",
       "sourceName": "contracts/MyToken.sol",
       "solcConfig": {
         "version": "0.8.2",

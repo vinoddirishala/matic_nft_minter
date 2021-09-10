@@ -11,7 +11,7 @@ contract MyToken is ERC721, ERC721Enumerable, Ownable {
 
     Counters.Counter private _tokenIdCounter;
 
-    constructor() ERC721("MyToken", "MT") {}
+    constructor() ERC721("MyToken", "MyToken") {}
 
     function safeMint(address to) public onlyOwner {
         
